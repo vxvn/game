@@ -1,0 +1,141 @@
+[
+    {
+        "name": "basic",
+        "targets": 1,
+        "fatigue_cost": 1,
+        "effects": [
+            {
+                "damage_stat": "HP",
+                "mod_power": "STR",
+                "mod_hit": "AGI",
+                "range": "CLS"
+            }
+        ]
+    },
+    {
+        "name": "rest",
+        "effects": [
+            {
+                "restore_stat": "FAT",
+                "range": "SLF"
+            }
+        ]
+    },
+    {
+        "name": "flury",
+        "targets": 3,
+        "fatigue_cost": 2,
+        "effects": [
+            {
+                "damage_stat": "HP",
+                "base_power": -2,
+                "base_hit": -1,
+                "mod_power": "STR",
+                "mod_hit": "AGI",
+                "range": "CLS"
+            }
+        ]
+    },
+    {
+        "name": "sneak",
+        "fatigue_cost": 2,
+        "effects": [
+            {
+                "restore_stat": "SPD",
+                "base_power": 3,
+                "range": "SLF"
+            },
+            {
+                "restore_stat": "AGI",
+                "base_power": 4,
+                "range": "SLF"
+            }
+        ]
+    },
+    {
+        "name": "rally_cry",
+        "fatigue_cost": 8,
+        "effects": [
+            {
+                "restore_stat": "FAT",
+                "base_power": 8,
+                "range": "GRP"
+            }
+        ]
+    },
+    {
+        "name": "fire",
+        "fatigue_cost": 2,
+        "targets": 1,
+        "effects": [
+            {
+                "damage_stat": "HP",
+                "base_power": 6,
+                "base_hit": 1,
+                "mod_power": "WIL",
+                "mod_hit": "FOC",
+                "range": "FAR"
+            }
+        ]
+    },
+    {
+        "name": "heal",
+        "fatigue_cost": 2,
+        "targets": 1,
+        "effects": [
+            {
+                "restore_stat": "HP",
+                "base_power": 3,
+                "base_hit": 1,
+                "mod_power": "WIL",
+                "mod_hit": "FOC",
+                "range": "FAR"
+            }
+        ]
+    },
+    {
+        "name": "quick",
+        "fatigue_cost": 2,
+        "targets": 1,
+        "effects": [
+            {
+                "restore_stat": "SPD",
+                "base_power": 3,
+                "base_hit": 1,
+                "mod_power": "WIL",
+                "mod_hit": "FOC",
+                "range": "FAR"
+            }
+        ]
+    },
+    {
+        "name": "strike",
+        "targets": 1,
+        "fatigue_cost": 3,
+        "effects": [
+            {
+                "damage_stat": "HP",
+                "base_power": 4,
+                "base_hit": -2,
+                "mod_power": "STR",
+                "mod_hit": "AGI",
+                "range": "CLS"
+            }
+        ]
+    },
+    {
+        "name": "stab",
+        "targets": 1,
+        "fatigue_cost": 2,
+        "effects": [
+            {
+                "damage_stat": "HP",
+                "base_power": -2,
+                "base_hit": 4,
+                "mod_power": "STR",
+                "mod_hit": "AGI",
+                "range": "CLS"
+            }
+        ]
+    }
+]

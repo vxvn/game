@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Allerick",
+        "attrs": {
+            "strength": 15,
+            "constitution": 12,
+            "agility": 8,
+            "speed": 8,
+            "endurance": 16,
+            "willpower": 4,
+            "focus": 3,
+            "vitality": 10
+        },
+        "attacks": [
+            "basic",
+            "rest",
+            "rally_cry"
+        ]
+    },
+    {
+        "name": "Writhen",
+        "attrs": {
+            "strength": 8,
+            "constitution": 6,
+            "agility": 16,
+            "speed": 16,
+            "endurance": 6,
+            "willpower": 2,
+            "focus": 1,
+            "vitality": 4
+        },
+        "attacks": [
+            "basic",
+            "rest",
+            "flury",
+            "sneak"
+        ]
+    },
+    {
+        "name": "Fuzzerker",
+        "attrs": {
+            "strength": 2,
+            "constitution": 3,
+            "agility": 4,
+            "speed": 6,
+            "endurance": 4,
+            "willpower": 14,
+            "focus": 17,
+            "vitality": 3
+        },
+        "attacks": [
+            "basic",
+            "rest",
+            "fire"
+        ]
+    },
+    {
+        "name": "Wiggamemnon",
+        "attrs": {
+            "strength": 5,
+            "constitution": 6,
+            "agility": 4,
+            "speed": 5,
+            "endurance": 4,
+            "willpower": 12,
+            "focus": 13,
+            "vitality": 6
+        },
+        "attacks": [
+            "basic",
+            "rest",
+            "heal",
+            "quick"
+        ]
+    },
+    {
+        "name": "Savino",
+        "attrs": {
+            "strength": 14,
+            "constitution": 5,
+            "agility": 6,
+            "speed": 16,
+            "endurance": 4,
+            "willpower": 1,
+            "focus": 1,
+            "vitality": 9
+        },
+        "attacks": [
+            "basic",
+            "rest",
+            "strike",
+            "stab"
+        ]
+    }
+]
